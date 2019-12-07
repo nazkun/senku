@@ -34,7 +34,7 @@ parent_id = Var.GDRIVE_FOLDER_ID
 G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
 
 
-@borg.on (admin_cmd(pattern=".ugdrive ?(.*)", allow_sudo=true))
+@borg.on (admin_cmd(pattern=".ugdrive ?(.*)", allow_sudo_True))
 async def _(event):
     if event.fwd_from:
         return
