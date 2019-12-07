@@ -21,7 +21,7 @@ async def _(event):
 
         return
 
-    animation_interval = 2
+    animation_interval = 5
 
     animation_ttl = range(0, 11)
 
@@ -36,14 +36,14 @@ async def _(event):
             "`Connecting To Hacked Private Server...`",
             "`Target Selected.`",
             "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
+            "`Hacking... 0%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `","`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Hacking... 8%\n████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
             "`Hacking... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
             "`Hacking... 100%\n█████████HACKED███████████ `",
-            "`Targeted Account Hacked...\n\nPay 69$ To @A_Dark_Princ3 Or send nudes of female Homo Sapiens To Remove This Hack`"
+            "`Targeted Account Hacked...\n\nPay 69$ To @nazi_kun Or send nudes of female Homo Sapiens To Remove This Hack`"
         ]
 
         for i in animation_ttl:
