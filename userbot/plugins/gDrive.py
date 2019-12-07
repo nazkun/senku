@@ -34,7 +34,7 @@ parent_id = Var.GDRIVE_FOLDER_ID
 G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
 
 
-@command(pattern="^.ugdrive ?(.*)", allow_sudo=true)
+@command(pattern="^.ugdrive ?(.*)", allow_sudo=True)
 async def _(event):
     if event.fwd_from:
         return
